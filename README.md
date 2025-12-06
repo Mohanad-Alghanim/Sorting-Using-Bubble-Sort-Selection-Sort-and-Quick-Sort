@@ -2,19 +2,19 @@ I recently completed a project analyzing the structural mechanics of fundamental
 
 Here is a scientific breakdown of the three algorithms I implemented:
 
-🔹 1. Bubble Sort (The Sequential Approach)
+🔹 1. Bubble Sort
 
 Mechanism: Operates on "adjacent comparison." It linearly scans the list, swapping neighbors if they are in the wrong order.
 
 Performance: Exhibits quadratic performance. It struggles with large datasets as execution time increases with the square of input elements.
 
-🔹 2. Selection Sort (The Positional Approach)
+🔹 2. Selection Sort
 
 Mechanism: Focuses on minimizing memory write operations. It scans the "unsorted region" to find the global minimum and swaps it into the correct position.
 
 Performance: Also demonstrates quadratic performance, as it is compelled to scan remaining elements regardless of the list's initial state.
 
-🔹 3. Quick Sort (The Divide & Conquer Approach) ⚡
+🔹 3. Quick Sort
 
 Mechanism: Relies on structural decomposition. It selects a "pivot" and partitions the list (smaller vs. larger) before recursively sorting the sub-lists.
 
